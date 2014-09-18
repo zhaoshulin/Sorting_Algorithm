@@ -9,7 +9,6 @@ inline void swap(int &a, int &b)
 		a ^= b;
 		b ^= a;
 		a ^= b;
-		cout << "swap over." << endl;
 	}
 	return;
 }
@@ -20,7 +19,6 @@ int partition(int arr[], int l, int r)
 	int i, j;
 	int record;
 
-//	swap(arr[0], arr[src_pos]);
 
 	i = l;
 	j = r;
